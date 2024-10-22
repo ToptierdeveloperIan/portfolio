@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Fieldset</title>
+    <style>
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="/submit" method="post">
+        <fieldset>
+            
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label><input type="checkbox" name="newsletter" value="subscribe"> Subscribe to newsletter</label>
+            <br>
+            <label><input type="radio" name="contactMethod" value="email"> Contact by email</label>
+            <br>
+            <label><input type="radio" name="contactMethod" value="phone"> Contact by phone</label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+    <a href="ecommerce.html">ecommerce website</a>
+</body>
+</html>
