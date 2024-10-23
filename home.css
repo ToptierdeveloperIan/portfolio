@@ -1,0 +1,30 @@
+ul{
+    list-style-type:none;
+    overflow:hidden;
+    background-color:rgb(55, 255, 55) ;
+    margin:0;
+    padding:0;
+    width: 100%;
+
+}
+li{
+    float:left;
+}
+li a{
+    display:block ;
+    padding:15px ;
+    text-decoration:none;
+    color:white;
+}
+li a:hover{
+    background-color:black;
+}
+#home{
+background-color: aqua;
+padding:15px;
+text-align: center;
+text-decoration: none;
+width:5cm;
+height:5cm;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce Website</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to our E-commerce Store</h1>
+    </header>
+
+    <!-- Main Content Section (Product Listings) -->
+    <main>
+        <section class="products">
+            <article>
+                <h2>Product Name</h2>
+                <img src="product-image.jpg" alt="Product Image">
+                <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article>
+                <h2>Another Product</h2>
+                <img src="product-image.jpg" alt="Product Image">
+                <p>Description of another product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </article>
+            
+            <!-- Add more product articles as needed -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your E-commerce Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
